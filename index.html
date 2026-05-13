@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Casa Bruna, restaurante demo en Palermo con comida casera argentina, reservas por WhatsApp y delivery.">
+  <title>Casa Bruna | Restaurante en Palermo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header" id="inicio">
+    <nav class="navbar" aria-label="Navegación principal">
+      <a href="#inicio" class="brand" aria-label="Casa Bruna inicio">
+        <span class="brand-mark">CB</span>
+        <span>Casa Bruna</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-label="Abrir menú" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#menu">Menú</a></li>
+        <li><a href="#reservas">Reservas</a></li>
+        <li><a href="#delivery">Delivery</a></li>
+        <li><a href="#ubicacion">Ubicación</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+
+    <section class="hero section-shell">
+      <div class="hero-content">
+        <p class="eyebrow">Palermo · Buenos Aires</p>
+        <h1>Casa Bruna</h1>
+        <p class="hero-tagline">Comida casera, moderna y con sabor argentino</p>
+        <p class="hero-copy">Un rincón cálido para disfrutar recetas de estación, vinos seleccionados y sobremesas memorables.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#menu">Ver menú</a>
+          <a class="btn btn-secondary whatsapp-link" href="https://wa.me/5491112345678?text=Hola%20Casa%20Bruna%2C%20quiero%20hacer%20una%20reserva." target="_blank" rel="noopener">Reservar por WhatsApp</a>
+        </div>
+      </div>
+      <div class="hero-card" aria-label="Plato destacado de Casa Bruna">
+        <div class="plate-visual"></div>
+        <div class="floating-note">
+          <strong>Menú de temporada</strong>
+          <span>Sabores argentinos con mirada contemporánea</span>
+        </div>
+      </div>
+    </section>
+  </header>
+
+  <main>
+    <section class="why section-shell" aria-labelledby="why-title">
+      <div class="section-heading centered">
+        <p class="eyebrow">Nuestra propuesta</p>
+        <h2 id="why-title">Por qué elegirnos</h2>
+      </div>
+      <div class="feature-grid">
+        <article class="feature-card">
+          <span class="feature-icon">🥬</span>
+          <h3>Ingredientes frescos</h3>
+          <p>Trabajamos con productores locales y productos de estación para lograr platos honestos y llenos de sabor.</p>
+        </article>
+        <article class="feature-card">
+          <span class="feature-icon">📲</span>
+          <h3>Reservas simples</h3>
+          <p>Confirmá tu mesa en segundos con un mensaje de WhatsApp generado automáticamente desde el sitio.</p>
+        </article>
+        <article class="feature-card">
+          <span class="feature-icon">🛵</span>
+          <h3>Delivery rápido</h3>
+          <p>Disfrutá nuestros clásicos en casa con una experiencia ágil, cuidada y lista para compartir.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="menu-section section-shell" id="menu" aria-labelledby="menu-title">
+      <div class="section-heading">
+        <p class="eyebrow">Carta</p>
+        <h2 id="menu-title">Menú de Casa Bruna</h2>
+        <p>Platos caseros con técnica moderna, porciones generosas y precios expresados en ARS.</p>
+      </div>
+      <div class="menu-grid">
+        <article class="menu-category">
+          <h3>Entradas</h3>
+          <div class="menu-item">
+            <div><h4>Provoleta braseada</h4><p>Tomates confitados, oliva verde y pan de campo.</p></div><span>$8.900</span>
+          </div>
+          <div class="menu-item">
+            <div><h4>Empanadas cortadas a cuchillo</h4><p>Carne suave, huevo, verdeo y salsa criolla.</p></div><span>$5.200</span>
+          </div>
+          <div class="menu-item">
+            <div><h4>Burrata con chimichurri de hierbas</h4><p>Duraznos grillados, rúcula y nueces tostadas.</p></div><span>$10.400</span>
+          </div>
+        </article>
+        <article class="menu-category">
+          <h3>Principales</h3>
+          <div class="menu-item">
+            <div><h4>Bife de chorizo Casa Bruna</h4><p>Papas rotas, manteca ahumada y vegetales asados.</p></div><span>$18.900</span>
+          </div>
+          <div class="menu-item">
+            <div><h4>Ñoquis de papa al fileto</h4><p>Salsa de tomates orgánicos, albahaca y parmesano.</p></div><span>$12.600</span>
+          </div>
+          <div class="menu-item">
+            <div><h4>Pesca del día</h4><p>Puré de calabaza, limón quemado y ensalada fresca.</p></div><span>$17.500</span>
+          </div>
+        </article>
+        <article class="menu-category">
+          <h3>Postres</h3>
+          <div class="menu-item">
+            <div><h4>Flan casero</h4><p>Dulce de leche, crema batida y crocante de almendras.</p></div><span>$5.900</span>
+          </div>
+          <div class="menu-item">
+            <div><h4>Panqueque quemado</h4><p>Dulce de leche repostero y helado de vainilla.</p></div><span>$6.800</span>
+          </div>
+          <div class="menu-item">
+            <div><h4>Peras al Malbec</h4><p>Mascarpone cítrico y crumble especiado.</p></div><span>$6.400</span>
+          </div>
+        </article>
+        <article class="menu-category">
+          <h3>Bebidas</h3>
+          <div class="menu-item">
+            <div><h4>Limonada Bruna</h4><p>Limón, menta, jengibre y almíbar casero.</p></div><span>$3.900</span>
+          </div>
+          <div class="menu-item">
+            <div><h4>Copa de Malbec</h4><p>Selección mendocina de la casa.</p></div><span>$4.800</span>
+          </div>
+          <div class="menu-item">
+            <div><h4>Aperitivo porteño</h4><p>Vermouth rosso, soda, naranja y aceituna.</p></div><span>$5.100</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="reservation-section" id="reservas" aria-labelledby="reservation-title">
+      <div class="section-shell reservation-layout">
+        <div class="reservation-copy">
+          <p class="eyebrow">Reservas</p>
+          <h2 id="reservation-title">Guardamos tu mesa</h2>
+          <p>Completá el formulario y abriremos WhatsApp con tu mensaje listo para enviar. Te responderemos a la brevedad.</p>
+          <div class="reservation-highlight">
+            <strong>Tip Casa Bruna</strong>
+            <span>Para grupos de más de 8 personas, contanos si celebran algo especial.</span>
+          </div>
+        </div>
+        <form class="reservation-form" id="reservationForm" novalidate>
+          <div class="form-row">
+            <label for="name">Nombre</label>
+            <input type="text" id="name" name="name" placeholder="Tu nombre" required>
+            <small class="error-message"></small>
+          </div>
+          <div class="form-grid">
+            <div class="form-row">
+              <label for="date">Fecha</label>
+              <input type="date" id="date" name="date" required>
+              <small class="error-message"></small>
+            </div>
+            <div class="form-row">
+              <label for="time">Hora</label>
+              <input type="time" id="time" name="time" required>
+              <small class="error-message"></small>
+            </div>
+          </div>
+          <div class="form-row">
+            <label for="people">Cantidad de personas</label>
+            <input type="number" id="people" name="people" min="1" max="20" placeholder="Ej: 4" required>
+            <small class="error-message"></small>
+          </div>
+          <div class="form-row">
+            <label for="comments">Comentarios</label>
+            <textarea id="comments" name="comments" rows="4" placeholder="Preferencias, alergias o motivo de la visita"></textarea>
+          </div>
+          <p class="form-success" id="formSuccess" role="status" aria-live="polite"></p>
+          <button class="btn btn-primary form-submit" type="submit">Reservar por WhatsApp</button>
+        </form>
+      </div>
+    </section>
+
+    <section class="delivery section-shell" id="delivery" aria-labelledby="delivery-title">
+      <div class="delivery-card">
+        <div>
+          <p class="eyebrow">Delivery</p>
+          <h2 id="delivery-title">Casa Bruna en tu casa</h2>
+          <p>Pedí nuestros favoritos para compartir: principales, postres y bebidas seleccionadas con packaging cuidado.</p>
+        </div>
+        <div class="delivery-actions">
+          <button class="btn btn-primary delivery-whatsapp" type="button" data-message="Hola Casa Bruna, quiero hacer un pedido por delivery.">Pedir por WhatsApp</button>
+          <button class="btn btn-secondary delivery-whatsapp" type="button" data-message="Hola Casa Bruna, ¿me comparten el menú delivery?">Ver menú delivery</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="location section-shell" id="ubicacion" aria-labelledby="location-title">
+      <div class="section-heading centered">
+        <p class="eyebrow">Ubicación</p>
+        <h2 id="location-title">Nos encontramos en Palermo</h2>
+        <p>Costa Rica 4500, Palermo, Ciudad Autónoma de Buenos Aires.</p>
+      </div>
+      <div class="map-wrapper">
+        <iframe title="Mapa de Casa Bruna en Palermo" src="https://www.google.com/maps?q=Costa%20Rica%204500%2C%20Palermo%2C%20Buenos%20Aires&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </section>
+
+    <section class="contact section-shell" id="contacto" aria-labelledby="contact-title">
+      <div class="contact-card">
+        <div>
+          <p class="eyebrow">Contacto</p>
+          <h2 id="contact-title">Te esperamos</h2>
+          <p>Ideal para cenas íntimas, almuerzos de trabajo y encuentros con amigos en el corazón de Palermo.</p>
+        </div>
+        <div class="contact-list">
+          <p><strong>Dirección:</strong> Costa Rica 4500, Palermo, CABA</p>
+          <p><strong>Teléfono:</strong> <a href="tel:+5491112345678">+54 9 11 1234-5678</a></p>
+          <p><strong>Instagram:</strong> <a href="https://www.instagram.com/casabruna.demo" target="_blank" rel="noopener">@casabruna.demo</a></p>
+          <p><strong>Horarios:</strong> Mar a Dom · 12:00 a 16:00 y 19:30 a 00:30</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Casa Bruna © 2026 - Sitio demo creado por una agencia digital</p>
+  </footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="script.js"></script>
+</body>
+</html>
